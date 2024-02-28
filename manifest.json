@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Runner Helper Extensions",
+  "description": "Runner Helper Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "bg.png"
+  }
+}

@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body {
+        width: 280px;
+        height: 280px;
+        background-color: #7AB3D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .title {
+        font-size: 16px;
+        margin: 10px 0;
+        color: #0B52C0;
+      }
+      .input {
+        width: 60px;
+        margin: 0 6px;
+      }
+      .wrapper {
+        margin-bottom: 6px;
+      }
+      .area {
+        width: 260px;
+        height: 260px;
+        border-radius: 4px;
+        background-color: #fff;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="area">
+      <div class="title">根据配速计算完赛时间</div>
+      <div class="wrapper">
+        目标距离<input type="number" placeholder="21.5" class="input" id="tDistance">公里
+      </div>
+      <div class="wrapper">
+        目标配速 <input type="text" placeholder="6'06" class="input" id="tSpeed">/公里
+      </div>
+      <div>
+        <span>完赛时间 <em id="rTime">00:00:00</em></span>
+      </div>
+      <div class="title">根据目标花费时间计算所需配速</div>
+      <div class="wrapper">
+        目标距离<input type="number" placeholder="21.5" class="input" id="tDistance2">公里
+      </div>
+      <div class="wrapper">
+        目标完赛时间 <input type="text" placeholder="00:31:41" class="input" id="tTime2">
+      </div>
+      <div>
+        <span>配速 <em id="rSpeed2">0'00"</em>/公里</span>
+      </div>
+    </div>
+    
+    
+    <script src="./popup.js"></script>
+  </body>
+</html>
+
